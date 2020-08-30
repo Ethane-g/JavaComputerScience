@@ -1,5 +1,5 @@
 //Ethan Garcia
-//112752608
+
 package com.company;
 import java.util.Scanner;
 
