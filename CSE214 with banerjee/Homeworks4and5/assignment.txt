@@ -1,0 +1,51 @@
+The last two assignments are extremely short assignments, each asking you to implement one sorting algorithm. In fact, once you finish any one of the assignments, the other one will become even simpler. As before, your code must entirely be in Java. You are being asked to implement one quadratic sorting algorithm (assignment 4) and then, the Quicksort algorithm (assignment 5). In both implementations,
+
+you are being asked to implement the Sorter interface provided to you;
+
+you may find Java's StringBuilder object useful. This object is used to incrementally build a complex string until you are finally ready to convert it to a String object; and
+
+you may add additional private instance attributes to the classes, along with their getter and/or setter methods (if you feel these attributes and their corresponding methods are necessary).
+
+Given code: Sorter.java, InsertionSort.java, and QuickSort.java.
+
+In the given code, there is a package line at the top. Please delete this line so that your code compiles.
+
+Assignment 4
+The task here is to implement the insertion sort algorithm and complete the methods marked with "todo". Several requirements are explained in the comments in the code, so read them very carefully.
+
+Rubric
+
+Correctness of the insertion sort algorithm [20 points]
+
+Correctness of the show() method [20 points]
+
+Ability to use comparable data types in this algorithm [20 points]
+
+Correct sorting that handles both the increasing and the decreasing order [10 points]
+
+Ability to correctly handle different types of lists (e.g., ArrayList or LinkedList) [20 points]
+
+After sorting, the backing list is, indeed, sorted. This will be verified by a call to the getList() function. [10 points]
+
+Assignment 5
+The task here is to implement the Quicksort algorithm and complete the methods marked with "todo". Several requirements are explained in the comments in the code, so read them very carefully.
+
+Rubric
+
+Correctness of the Quicksort algorithm [25 points]
+
+Correctness of the show() method [25 points]
+
+Ability to use comparable data types in this algorithm [10 points]
+
+Correct sorting that handles both the increasing and the decreasing order [10 points]
+
+Ability to correctly handle different types of lists (e.g., ArrayList or LinkedList) [20 points]
+
+After sorting, the backing list is, indeed, sorted. This will be verified by a call to the getList() function. [10 points]
+
+What to submit?
+Two .java files: InsertionSort.java for assignment 4, and QuickSort.java for assignment. All your code must be in these two files only. Do NOT submit the Sorter interface, since we will be using the interface code already provided to you.
+
+Submission deadline
+Since the two implementations are closely related, you may find it useful to work on them together. Both codes are due on Blackboard by 11:59 pm, December 8.
